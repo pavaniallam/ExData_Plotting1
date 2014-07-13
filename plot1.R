@@ -6,4 +6,5 @@ hist(selection$Global_active_power,xlab="Global Active Power (kilowatts)",main="
 
 dev.copy(png, file = "plot1.png")  ## copy the plot to a PNG file
 
+
 dev.off()  ## close PNG device
