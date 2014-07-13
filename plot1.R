@@ -4,4 +4,5 @@ selection<-consumption[consumption$Date %in% c("1/2/2007","2/2/2007"),]
 hist(selection$Global_active_power,xlab="Global Active Power (kilowatts)",main="Global Active Power",col="red")
 
 dev.copy(png, file = "plot1.png")  ## copy the plot to a PNG file
+
 dev.off()  ## close PNG device
